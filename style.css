@@ -1,0 +1,40 @@
+body
+{
+background-size: cover;
+}
+
+.heading h3
+{
+    display: inline;
+    float: left;
+}
+
+button{
+    float: right;
+}
+
+.heading
+{
+    width: 100%;
+}
+
+.play
+{
+ width: 100%;
+}
+
+#start
+{
+    position:center;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:azure;
+    text-align: center;
+    line-height: 3;
+    color: black;
+}

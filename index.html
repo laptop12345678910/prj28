@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background="background1.jpg">
+        <center>
+            <div class="btn btn-warning heading">
+          <h3>AI PING-PONG GAME</h3>
+          <h4><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Instructions</button></h4>
+          </div>
+          <div class="btn btn-warning game">
+          <button class="btn btn-success" onclick="startGame()" id="start">Play Game</button>
+          <button class="btn btn-danger" onclick="restart()" id="restart_button">Restart</button>
+        </div>
+        <h3 id="status" class="btn btn-warning"></h3>
+        <div id="canvas"></div>
+    
+
+        <div id="myModal" class="modal fade ">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <buttom class="close" data-dismiss="modal">&times;</buttom>
+                  <h4>Instructions</h4>
+                </div>
+    
+                <div class="modal-body">
+                    <ol>
+                        <li>Dont Rage</li>
+                        <li>Dont change code</li>
+                        <li>Wait for the bot to respond</li>
+                    </ol>
+            
+                </div>
+              </div>
+            </div>
+          </div>
+        </center>
+
+        <div class="copy_right_footer">
+          Changes Made By Nashat
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
